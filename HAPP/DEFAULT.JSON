@@ -39,7 +39,6 @@
         "geoip:direct"
     ],
     "ProxySites": [
-        "geosite:meta",
         "geosite:google-play",
         "geosite:github",
         "geosite:twitch-ads",

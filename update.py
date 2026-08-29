@@ -1,6 +1,6 @@
 import json
 
-file_path = "HAPP/DEFAULT.json"
+file_path = "HAPP/DEFAULT.JSON"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)

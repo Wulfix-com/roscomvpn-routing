@@ -203,6 +203,7 @@ jobs:
           fi
 
           git commit -m "$(date -u +%Y%m%d%H%M)"
+          git pull --rebase
           git push
 
       - name: Export deeplinks
